@@ -1,0 +1,18 @@
+<div class="jumbotron">
+    <div class = "container">
+        <h1>welcome:)</h1>
+        <p>this is a website to get medicine info, feel free to use it</p>
+    <button class="btn btn-primary btn-lg" role="button" data-bind='click: doSomething'>Click me</button>
+    <p data-bind='text: message'></p>
+    </div>
+</div>
+
+<div class ="container">
+    <div class="row" data-bind="foreach: medicineList">
+        <div class="col-md-4">
+            <h2 data-bind="text: name"/>
+            <p data-bind="text: price"/>
+            <p data-bind="text: feature"/>
+        </div>
+    </div>
+</div>
