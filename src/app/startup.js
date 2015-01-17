@@ -15,5 +15,4 @@ define(['jquery', 'knockout', './router', 'bootstrap', 'knockout-projections'], 
   ko.applyBindings({ route: router.currentRoute });
 });
 
-var global = {};
 
