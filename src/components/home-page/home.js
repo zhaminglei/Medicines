@@ -4,7 +4,6 @@
     	var self = this;
       self.message = ko.observable('Welcome to MedincineManagement!');
       self.medicineList = global.GetMedicines();
-
   }
     HomeViewModel.prototype.doSomething = function() {
       this.message('You invoked doSomething() on the viewmodel.');
