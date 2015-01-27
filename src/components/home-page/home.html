@@ -2,7 +2,8 @@
     <div class = "container">
         <h1>welcome:)</h1>
         <p>this is a website to get medicine info, feel free to use it</p>
-        <button class="btn btn-primary btn-lg" role="button" data-bind='click: doSomething'>Click me</button>
+        <input />
+        <button class="btn btn-primary btn-lg" role="button" data-bind='click: doSomething'>Search</button>
         <p data-bind='text: message'></p>
     </div>
 </div>
@@ -10,9 +11,10 @@
 <div class ="container">
     <div class="row" data-bind="foreach: medicineList">
         <div class="col-md-4">
-            <h2 data-bind="text: name"/>
-            <p data-bind="text: price"/>
-            <p data-bind="text: feature"/>
+            <h2 data-bind="text: productName"/>
+            <p data-bind="text: approveCode"/>
+            <p data-bind="text: factoryAddress"/>
+            <p data-bind="text: factoryName"/>
         </div>
     </div>
 </div>
